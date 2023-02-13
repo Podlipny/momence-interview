@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "tsc": "tsc",
     "tsc:watch": "tsc --watch",
     "lint": "eslint src --ext js,jsx,ts,tsx",
