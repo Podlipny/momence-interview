@@ -1,0 +1,22 @@
+:root {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  height: 100vh;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  background: rgb(255,157,157);
+  background: linear-gradient(145deg, rgb(255,157,157) 0%, rgba(0,185,255,1) 100%);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+}

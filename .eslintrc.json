@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "@podlipny/eslint-config/base",
+    "@podlipny/eslint-config/base-react-jsx",
+    "@podlipny/eslint-config/base-typescript",
+    "@podlipny/eslint-config/perf-react-jsx"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx", ".json"]
+      },
+      "typescript": {}
+    }
+  },
+  "rules": {
+    "@typescript-eslint/no-use-before-define": ["off"],
+    "no-console": "warn"
+    // exception for react functional arrow components
+    // "react/function-component-definition": ["error", {
+    //   "namedComponents": "arrow-function",
+    //   "unnamedComponents": "arrow-function"
+    // }],
+  },
+  "globals": {
+    "React": "writable"
+  }
+}
